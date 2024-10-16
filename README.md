@@ -12,7 +12,7 @@ To run this project, you'll need the following Python packages:
 - `pandas`
 - `matplotlib`
 
-You can install the dependencies using: 'requirements.txt' file provided
+**Note:** You can install the dependencies using: 'requirements.txt' file provided
 
 
 ## Dataset
@@ -21,7 +21,7 @@ The dataset used is a custom NER dataset provided in CSV format with columns:
 - `words`: The words in each sentence.
 - `labels`: The named entity labels corresponding to each word.
 
-Ensure the dataset is available in the correct format and path.
+**Note: ** Ensure the dataset is available with same name "ner_dataset.csv" and colab path "/content/ner_dataset.csv".
 
 ## Model Training
 
