@@ -33,6 +33,6 @@ We use a BERT model pre-trained on the English language, fine-tuning it on the N
   
 ## Save Model 
 Save the model and tokenizer after deleting the existing folder
-'model.save_model(model_dir)'
+- 'model.save_model(model_dir)'
 **Note:** Replace the valiable 'model_dir' with path to save
 
