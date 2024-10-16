@@ -21,7 +21,7 @@ The dataset used is a custom NER dataset provided in CSV format with columns:
 - `words`: The words in each sentence.
 - `labels`: The named entity labels corresponding to each word.
 
-**Note: ** Ensure the dataset is available with same name "ner_dataset.csv" and colab path "/content/ner_dataset.csv".
+**Note:** Ensure the dataset is available with same name "ner_dataset.csv" and colab path "/content/ner_dataset.csv".
 
 ## Model Training
 
@@ -30,3 +30,4 @@ We use a BERT model pre-trained on the English language, fine-tuning it on the N
 - `num_train_epochs`: 1
 - `train_batch_size`: 32
 - `eval_batch_size`: 32
+
