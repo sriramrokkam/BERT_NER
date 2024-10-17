@@ -30,9 +30,12 @@ We use a BERT model pre-trained on the English language, fine-tuning it on the N
 - `num_train_epochs`: 1
 - `train_batch_size`: 32
 - `eval_batch_size`: 32
-  
+- 'training file': `01.BERT_NER_F1.ipynb`
 ## Save Model 
 Save the model and tokenizer after deleting the existing folder
 - 'model.save_model(model_dir)'
 **Note:** Replace the valiable 'model_dir' with path to save
+## Chatbot - Pull from huggingface
+Execute the file given below by passing the huggingface token.
+- `Chatbot File` : `02.Chatbot_HF_Pull.ipynb`
 
